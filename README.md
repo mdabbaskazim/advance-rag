@@ -1,5 +1,7 @@
 # Self-RAG v2
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A self-reflective retrieval-augmented generation (RAG) application built with Python, FastAPI, LangGraph, Google Gemini, and FAISS. It answers questions using internal company PDFs, evaluates whether the answer is supported by retrieved context, and rewrites the query when the initial answer is weak or not useful.
 
 ## Overview
@@ -179,7 +181,7 @@ If the FAISS index has not been built yet, it will be created automatically the 
 
 ## License
 
-This project is currently unlicensed unless you add a license file or explicit licensing terms.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Author
 
