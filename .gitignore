@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+
+# Virtual environments
+.venv
+
+
+
+# Environment and secrets
+.env
+
+
+# IDE and OS files
+.vscode/
+*.DS_Store
+

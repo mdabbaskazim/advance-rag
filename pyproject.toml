@@ -1,0 +1,28 @@
+[project]
+name = "self-rag-v2"
+version = "0.1.0"
+description = "Self-Reflective RAG Backend using Google Gemini and LangGraph with LangSmith Tracing"
+readme = "README.md"
+authors = [
+    { name = "Md Abbas Kazim", email = "mdabbaskazim@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.15.0",
+    "fastapi>=0.141.1",
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.4.0",
+    "langgraph>=1.2.11",
+    "langsmith>=0.12.5",
+    "pydantic>=2.13.5",
+    "pypdf>=6.18.1",
+    "python-dotenv>=1.2.3",
+    "uvicorn>=0.53.0",
+]
+
+[project.scripts]
+self-rag-v2 = "self_rag_v2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
